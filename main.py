@@ -1,5 +1,13 @@
-PyQt
+# Import modules
+from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QVBoxLayout
 
-pillow
+# Main App Objects and Settings
 
-MatplotLib
+# Create all App Objects
+
+# All Design Here
+
+# Events
+
+# Show/Run our App
