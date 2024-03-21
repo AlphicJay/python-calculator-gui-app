@@ -9,9 +9,36 @@ main_window.setWindowTitle("Random Word Maker")
 main_window.resize(300, 200)
 
 # Create all App Objects
+title = QLabel("Random Keywords")
 
+text1 = QLabel("?")
+text2 = QLabel("?")
+text3 = QLabel("?")
+
+button1 = QPushButton("Click Me")
+button2 = QPushButton("Click Me")
+button3 = QPushButton("Click Me")
 
 # All Design Here
+master_layout = QVBoxLayout()
+
+row1 = QHBoxLayout()
+row2 = QHBoxLayout()
+row3 = QHBoxLayout()
+
+# row 1
+row1.addWidget(title, alignment=Qt.AlignCenter)
+
+# row 2
+row2.addWidget(text1, alignment=Qt.AlignCenter)
+row2.addWidget(text2, alignment=Qt.AlignCenter)
+row2.addWidget(text3, alignment=Qt.AlignCenter)
+
+# row 3
+row3.addWidget(button1, alignment=Qt.AlignCenter)
+row3.addWidget(button2, alignment=Qt.AlignCenter)
+row3.addWidget(button3, alignment=Qt.AlignCenter)
+
 
 # Events
 
