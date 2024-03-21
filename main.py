@@ -1,6 +1,6 @@
 # Import modules
 from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QVBoxLayout
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QVBoxLayout, QHBoxLayout
 
 # Main App Objects and Settings
 app = QApplication([])
@@ -38,6 +38,12 @@ row2.addWidget(text3, alignment=Qt.AlignCenter)
 row3.addWidget(button1)
 row3.addWidget(button2)
 row3.addWidget(button3)
+
+master_layout.addLayout(row1)
+master_layout.addLayout(row2)
+master_layout.addLayout(row3)
+
+main_window.setLayout(master_layout)
 
 
 # Events
