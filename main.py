@@ -35,9 +35,9 @@ row2.addWidget(text2, alignment=Qt.AlignCenter)
 row2.addWidget(text3, alignment=Qt.AlignCenter)
 
 # row 3
-row3.addWidget(button1, alignment=Qt.AlignCenter)
-row3.addWidget(button2, alignment=Qt.AlignCenter)
-row3.addWidget(button3, alignment=Qt.AlignCenter)
+row3.addWidget(button1)
+row3.addWidget(button2)
+row3.addWidget(button3)
 
 
 # Events
