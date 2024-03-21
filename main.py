@@ -56,14 +56,16 @@ def random_word1():
 
 def random_word2():
     word = choice(my_words)
-    text1.setText(word)
+    text2.setText(word)
     
 def random_word3():
     word = choice(my_words)
-    text1.setText(word)
+    text3.setText(word)
 
 # Events
-
+button1.clicked.connect(random_word1)
+button2.clicked.connect(random_word2)
+button3.clicked.connect(random_word3)   
 
 
 
